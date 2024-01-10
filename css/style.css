@@ -23,7 +23,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
@@ -133,9 +134,36 @@ h6 {
 
 .header__decor-text {
   position: absolute;
-  bottom: 0;
+  bottom: 25px;
   color: #0093a1;
 }
 
 .header__decor-text--one {
+  z-index: 1;
+  right: 145px;
+  bottom: 160px;
+}
+
+.header__decor-text--one,
+.header__decor-text--two {
+  font-size: 130px;
+  line-height: 145px;
+  font-family: "Comfortaa", cursive;
+  opacity: 0.3;
+}
+
+.header__decor-text--two {
+  z-index: 4;
+  left: 265px;
+  bottom: 0;
+}
+.header__decor-text--three {
+  max-width: 360px;
+  right: 145px;
+  z-index: 4;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  font-style: italic;
+  text-align: center;
 }
